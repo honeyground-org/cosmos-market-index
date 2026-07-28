@@ -5,7 +5,7 @@
     {
       "id": "wangjacsi/cosmos-lingua",
       "repo": "https://github.com/wangjacsi/cosmos-lingua",
-      "ref": "v0.2.0",
+      "ref": "v0.3.0",
       "type": "feature",
       "contract": "plugin/v1",
       "title": "Lingua Live — 실시간 언어 학습",
