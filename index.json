@@ -5,18 +5,21 @@
     {
       "id": "wangjacsi/cosmos-lingua",
       "repo": "https://github.com/wangjacsi/cosmos-lingua",
-      "ref": "v0.1.0",
+      "ref": "v0.2.0",
       "type": "feature",
       "contract": "plugin/v1",
       "title": "Lingua Live — 실시간 언어 학습",
-      "description": "대화하면서 수준을 재고, 흐름을 끊지 않고 교정하고, 잊을 때쯤 다시 꺼내 주는 실시간 언어 튜터. 영어·스페인어·일본어·중국어·독일어·프랑스어·한국어·아랍어.",
+      "description": "대화를 끊지 않고 백그라운드에서 교정하는 실시간 언어 튜터. 말하는 동안 수준을 재고, 틀린 말↔고친 말을 화면 카드로 보여주고, 잊을 때쯤 다시 꺼내 준다. 영어·스페인어·일본어·중국어·독일어·프랑스어·한국어·아랍어.",
       "author": "wangjacsi",
       "license": "MIT",
       "homepage": "https://github.com/wangjacsi/cosmos-lingua",
       "category": "학습",
       "capabilities": [],
       "requires_desktop": false,
-      "price": {"amount": 0, "currency": "KRW"},
+      "price": {
+        "amount": 0,
+        "currency": "KRW"
+      },
       "verified": true
     }
   ]
