@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "updated": "2026-07-28",
+  "updated": "2026-07-29",
   "agents": [
     {
       "id": "wangjacsi/cosmos-lingua",
       "repo": "https://github.com/wangjacsi/cosmos-lingua",
-      "ref": "v0.3.0",
+      "ref": "v0.4.0",
       "type": "feature",
       "contract": "plugin/v1",
       "title": "Lingua Live — 실시간 언어 학습",
