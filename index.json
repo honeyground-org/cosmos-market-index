@@ -1,20 +1,22 @@
 {
  "schema_version": 1,
- "updated": "2026-08-07",
+ "updated": "2026-08-18",
  "agents": [
   {
    "id": "wangjacsi/cosmos-lingua",
    "repo": "https://github.com/wangjacsi/cosmos-lingua",
-   "ref": "v0.4.0",
+   "ref": "v0.5.0",
    "type": "feature",
    "contract": "plugin/v1",
    "title": "Lingua Live — live language practice",
-   "description": "A live language tutor that corrects you in the background without interrupting the conversation. It gauges your level while you speak, shows wrong↔right as cards on screen, and brings things back just before you forget. English, Spanish, Japanese, Chinese, German, French, Korean and Arabic.",
+   "description": "A live language tutor that corrects you in the background without interrupting the conversation. It gauges your level while you speak, shows wrong↔right as cards on screen, and brings things back just before you forget. It keeps three things in Cosmos' memory — which language you are learning, roughly how far along, and what keeps tripping you up — so a new session does not start from scratch, and when things are quiet it can offer to pick practice back up. Say \"stop correcting me\" and it keeps to itself until you ask again. English, Spanish, Japanese, Chinese, German, French, Korean and Arabic.",
    "author": "wangjacsi",
    "license": "MIT",
    "homepage": "https://github.com/wangjacsi/cosmos-lingua",
    "category": "학습",
-   "capabilities": [],
+   "capabilities": [
+    "memory"
+   ],
    "requires_desktop": false,
    "price": {
     "amount": 0,
