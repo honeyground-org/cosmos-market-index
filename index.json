@@ -6,11 +6,11 @@
    "id": "honeyground-org/shopping",
    "repo": "https://github.com/honeyground-org/cosmos-agents",
    "path": "shopping",
-   "ref": "v1.0.0",
+   "ref": "v1.1.0",
    "type": "feature",
    "contract": "plugin/v1",
    "title": "Shopping scout",
-   "description": "Shopping search is everywhere; this remembers. It keeps what you were thinking of buying and what it cost that day, so next time it can say 'that one dropped 12,000 since you looked'. Four candidates sit side by side on one screen with the photo, the price, how many people reviewed it and whether the seller is official -- say 'show the next ones' for more. Ranking never counts commission; where a link pays us is written on that row. It can hand a purchase to Wallet, but the last button is always yours.",
+   "description": "Shopping search is everywhere; this remembers. It keeps what you were thinking of buying and what it cost that day, so next time it can say 'that one dropped 12,000 since you looked'. Four candidates sit side by side on one screen with the photo, the price, how many people reviewed it and whether the seller is official -- say 'show the next ones' for more. Ranking never counts commission; where a link pays us is written on that row. It can hand a purchase to Wallet, but the last button is always yours. And it watches in the background: if something you are still thinking about drops in price, it tells you at that moment rather than waiting for you to open a screen -- and it stops the moment you say you bought it.",
    "author": "honeyground-org",
    "license": "MIT",
    "homepage": "https://github.com/honeyground-org/cosmos-agents/tree/main/shopping",
@@ -37,7 +37,7 @@
     "de": "Einkaufs-Späher — bemerkt Preisbewegungen"
    },
    "description_i18n": {
-    "ko": "쇼핑 검색은 어디에나 있다. 이것이 하는 일은 기억이다 — 무엇을 사려고 망설였는지와 그날의 값을 남겨 두었다가, 다음에 물으면 \"그거 12,000원 내렸어요\"라고 말한다. 후보 넷이 한 화면에 나란히 선다: 사진·값·리뷰 수·공식 판매처인지. 더 보려면 \"다음 보기\"라고 말하면 된다. 수수료는 순위에 반영되지 않고, 받는 자리는 그 줄에 표시된다. 결제는 월렛에 넘길 수 있지만 마지막 버튼은 언제나 사람이다.",
+    "ko": "쇼핑 검색은 어디에나 있다. 이것이 하는 일은 기억이다 — 무엇을 사려고 망설였는지와 그날의 값을 남겨 두었다가, 다음에 물으면 \"그거 12,000원 내렸어요\"라고 말한다. 후보 넷이 한 화면에 나란히 선다: 사진·값·리뷰 수·공식 판매처인지. 더 보려면 \"다음 보기\"라고 말하면 된다. 수수료는 순위에 반영되지 않고, 받는 자리는 그 줄에 표시된다. 결제는 월렛에 넘길 수 있지만 마지막 버튼은 언제나 사람이다. 그리고 배경에서 지켜본다 — 아직 사려던 것이 싸지면 화면을 열 때까지 기다리지 않고 그 자리에서 말한다. \"샀어\"라고 하면 그 순간 그만둔다.",
     "ja": "ショッピング検索はどこにでもある。これがするのは記憶だ — 何を買おうか迷っていたか、その日いくらだったかを覚えていて、次に尋ねると「それ12,000下がりました」と言う。候補四つが一画面に並ぶ:写真・価格・レビュー数・公式店かどうか。もっと見るなら「次を見せて」。手数料は順位に反映しない。",
     "es": "Buscar productos se puede en cualquier sitio; esto recuerda. Guarda lo que estabas pensando comprar y cuánto costaba ese día, así la próxima vez puede decir «ese bajó 12.000 desde que lo miraste». Cuatro candidatos en una sola pantalla: foto, precio, reseñas y si la tienda es oficial.",
     "fr": "Chercher un produit, tout le monde sait faire ; ce qui compte ici, c'est la mémoire. Il retient ce que vous hésitiez à acheter et son prix ce jour-là, pour pouvoir dire ensuite « celui-ci a baissé de 12 000 ». Quatre candidats sur un seul écran : photo, prix, avis, vendeur officiel ou non.",
