@@ -86,7 +86,7 @@
    "id": "honeyground-org/youtube",
    "repo": "https://github.com/honeyground-org/cosmos-agents",
    "path": "youtube",
-   "ref": "youtube-v0.2.1",
+   "ref": "youtube-v0.2.2",
    "type": "feature",
    "contract": "plugin/v1",
    "title": "YouTube",
