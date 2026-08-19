@@ -83,6 +83,46 @@
    }
   },
   {
+   "id": "honeyground-org/youtube",
+   "repo": "https://github.com/honeyground-org/cosmos-agents",
+   "path": "youtube",
+   "ref": "youtube-v0.2.0",
+   "type": "feature",
+   "contract": "plugin/v1",
+   "title": "YouTube",
+   "description": "For people who publish, not just watch. It keeps your own uploads -- the titles, the tags, when each one went out -- and hands them back the next time you publish, so a channel stops being a pile of things you half remember. Its screen is your channel: what you put out, who can see each one, and how long it has been since the last one, and it reads entirely from memory so it works before you connect anything. It never turns a video title into a fact about you: a title is what someone wrote to get a click that afternoon. What it does keep, on the watching side, is the channel you keep coming back to -- and only after you actually come back, because once is an event and twice is a taste. One click connects your account for both searching and uploading; nothing has to be pasted anywhere.",
+   "author": "honeyground-org",
+   "license": "MIT",
+   "homepage": "https://github.com/honeyground-org/cosmos-agents/tree/main/youtube",
+   "category": "media",
+   "capabilities": [
+    "network",
+    "browser",
+    "media.publish",
+    "memory"
+   ],
+   "requires_desktop": false,
+   "price": {
+    "amount": 0,
+    "currency": "KRW"
+   },
+   "verified": true,
+   "title_i18n": {
+    "ko": "유튜브 — 만드는 사람을 위한",
+    "ja": "YouTube — つくる人のために",
+    "es": "YouTube — para quien publica",
+    "fr": "YouTube — pour ceux qui publient",
+    "de": "YouTube — für alle, die veröffentlichen"
+   },
+   "description_i18n": {
+    "ko": "보는 사람이 아니라 **만드는 사람**을 위한 것이다. 내가 올린 것 — 제목·태그·언제 나갔는지 — 을 기억해 두었다가 다음에 올릴 때 꺼내 준다. 화면은 내 채널이다: 무엇을 냈고, 각각을 누가 볼 수 있고, 마지막으로 낸 지 며칠 됐는지. 전부 기억에서 오므로 ★아직 연결을 안 했어도 화면이 선다★. 영상 제목을 나에 대한 사실로 굳히지 않는다 — 제목은 그날 클릭을 얻으려고 쓴 문장이다. 보는 쪽에서 남기는 것은 **다시 찾게 되는 채널**이고, 그것도 정말 다시 찾은 뒤에야 남긴다(한 번은 사건, 두 번은 성향). 계정 연결은 클릭 한 번이고 그 한 번이 찾기와 올리기를 다 덮는다.",
+    "ja": "見る人ではなく**つくる人**のためのもの。自分がアップしたもの — タイトル・タグ・いつ出したか — を覚えておき、次に公開するとき差し出す。画面は自分のチャンネルだ:何を出したか、それぞれ誰が見られるか、最後の公開から何日経ったか。すべて記憶から来るので★まだ接続していなくても画面は立つ★。動画のタイトルを自分についての事実にしない — タイトルはその日クリックを得るために書かれた文だ。見る側で残すのは**また戻ってくるチャンネル**で、それも実際に戻ってきた後だけ。接続はワンクリック。",
+    "es": "Para quien publica, no solo para quien mira. Guarda tus propias subidas — títulos, etiquetas, cuándo salió cada una — y te las devuelve la próxima vez que publiques. La pantalla es tu canal: qué has sacado, quién puede ver cada cosa y cuánto hace desde la última. Lee todo de la memoria, así que funciona antes de conectar nada. Nunca convierte el título de un vídeo en un hecho sobre ti. Un clic conecta la cuenta para buscar y para subir.",
+    "fr": "Pour ceux qui publient, pas seulement pour ceux qui regardent. Il garde vos propres publications — titres, tags, dates — et vous les rend la fois suivante. L'écran, c'est votre chaîne : ce que vous avez sorti, qui peut voir quoi, et depuis combien de temps. Tout vient de la mémoire, donc cela fonctionne avant même de connecter quoi que ce soit. Un titre de vidéo ne devient jamais un fait vous concernant. Un clic connecte le compte.",
+    "de": "Für Menschen, die veröffentlichen, nicht nur zuschauen. Es merkt sich Ihre eigenen Uploads — Titel, Tags, wann was erschien — und gibt sie beim nächsten Mal zurück. Der Bildschirm ist Ihr Kanal: was Sie herausgebracht haben, wer es jeweils sehen darf und wie lange der letzte her ist. Alles kommt aus dem Gedächtnis, es funktioniert also schon vor jeder Verbindung. Ein Videotitel wird nie zu einer Tatsache über Sie. Ein Klick verbindet das Konto."
+   }
+  },
+  {
    "id": "wangjacsi/cosmos-lingua",
    "repo": "https://github.com/wangjacsi/cosmos-lingua",
    "ref": "v0.5.1",
