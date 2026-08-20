@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "updated": "2026-08-19",
+ "updated": "2026-08-20",
  "agents": [
   {
    "id": "honeyground-org/flights",
@@ -86,7 +86,7 @@
    "id": "honeyground-org/youtube",
    "repo": "https://github.com/honeyground-org/cosmos-agents",
    "path": "youtube",
-   "ref": "youtube-v0.2.2",
+   "ref": "youtube-v0.3.0",
    "type": "feature",
    "contract": "plugin/v1",
    "title": "YouTube",
