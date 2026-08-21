@@ -6,7 +6,7 @@
    "id": "honeyground-org/flights",
    "repo": "https://github.com/honeyground-org/cosmos-agents",
    "path": "flights",
-   "ref": "flights-v0.3.1",
+   "ref": "flights-v0.4.0",
    "type": "feature",
    "contract": "plugin/v1",
    "title": "Flight finder",
@@ -17,7 +17,9 @@
    "category": "shopping",
    "capabilities": [
     "network",
-    "memory"
+    "memory",
+    "browser",
+    "browser.act"
    ],
    "requires_desktop": false,
    "price": {
@@ -38,7 +40,14 @@
     "es": "Buscar vuelos se puede en cualquier sitio; esto recuerda. Guarda a dónde querías ir, qué día pensabas salir y cuánto costaba cada vez que miró, así la próxima búsqueda puede decir «esa ruta bajó 80.000 desde que la miraste» y dibujar la tendencia en lugar de un solo número. Cuatro vuelos en una pantalla: precio, escalas y duración total. El que recomienda es el más barato entre los de menos escalas, y la tarjeta lo explica; el más barato de todos se marca aparte, porque en un vuelo lo más barato suele ser lo más duro. Puedes nombrar una aerolínea, pedir solo vuelos sin escalas o dar una fecha de vuelta: compara solo lo que encaja y, cuando nada encaja, dice qué condición es el problema. Cada tarjeta indica si el precio es de ida o de ida y vuelta.",
     "fr": "Chercher un vol, tout le monde sait faire ; ce qui compte ici, c'est la mémoire. Il retient où vous vouliez aller, quel jour vous comptiez partir et le tarif à chaque consultation, pour pouvoir dire ensuite « cet itinéraire a baissé de 80 000 » et tracer la tendance plutôt qu'un seul chiffre. Quatre vols sur un écran : prix, escales, durée totale. Celui qu'il met en avant est le moins cher parmi ceux qui ont le moins d'escales, et la carte le dit ; le moins cher de tous est signalé à part, car sur un vol le moins cher est souvent le plus pénible. Vous pouvez nommer une compagnie, demander uniquement des vols sans escale ou donner une date de retour : il ne compare que ce qui correspond et, quand rien ne correspond, il dit quelle condition pose problème. Chaque carte indique si le prix est un aller simple ou un aller-retour.",
     "de": "Flüge suchen kann jeder; hier zählt das Erinnern. Es merkt sich, wohin du wolltest, wann du abfliegen wolltest und was der Preis bei jedem Blick war, und sagt beim nächsten Mal „diese Strecke ist um 80.000 gefallen“ — samt Verlauf statt einer einzelnen Zahl. Vier Flüge auf einem Bildschirm: Preis, Umstiege, Gesamtdauer. Empfohlen wird der günstigste unter denen mit den wenigsten Umstiegen, und die Karte sagt warum; der insgesamt günstigste ist getrennt markiert, denn beim Fliegen ist der günstigste meist der anstrengendste. Nenne eine Fluggesellschaft, verlange nur Nonstop-Flüge oder gib ein Rückflugdatum an: es vergleicht nur, was passt, und sagt, welche Bedingung das Problem ist, wenn nichts passt. Jede Karte sagt, ob der Preis für Hinflug oder Hin und zurück gilt."
-   }
+   },
+   "howto": [
+    "Find flights to Tokyo leaving on the 10th",
+    "Korean Air to Tokyo, nonstop, back on the 14th",
+    "Did that route get cheaper?",
+    "Show the next ones",
+    "I booked it"
+   ]
   },
   {
    "id": "honeyground-org/shopping",
@@ -80,7 +89,12 @@
     "es": "Buscar productos se puede en cualquier sitio; esto recuerda. Guarda lo que estabas pensando comprar y cuánto costaba ese día, así la próxima vez puede decir «ese bajó 12.000 desde que lo miraste». Cuatro candidatos en una sola pantalla: foto, precio, reseñas y si la tienda es oficial.",
     "fr": "Chercher un produit, tout le monde sait faire ; ce qui compte ici, c'est la mémoire. Il retient ce que vous hésitiez à acheter et son prix ce jour-là, pour pouvoir dire ensuite « celui-ci a baissé de 12 000 ». Quatre candidats sur un seul écran : photo, prix, avis, vendeur officiel ou non.",
     "de": "Produktsuche gibt es überall; hier zählt das Erinnern. Es merkt sich, was du kaufen wolltest und was es an dem Tag kostete, und sagt beim nächsten Mal „der ist um 12.000 gefallen“. Vier Kandidaten auf einem Bildschirm: Foto, Preis, Bewertungen und ob der Händler offiziell ist."
-   }
+   },
+   "howto": [
+    "I am thinking about buying a standing desk",
+    "Did anything I was watching get cheaper?",
+    "Show the next ones"
+   ]
   },
   {
    "id": "honeyground-org/youtube",
@@ -120,7 +134,11 @@
     "es": "Para quien publica, no solo para quien mira. Guarda tus propias subidas — títulos, etiquetas, cuándo salió cada una — y te las devuelve la próxima vez que publiques. La pantalla es tu canal: qué has sacado, quién puede ver cada cosa y cuánto hace desde la última. Lee todo de la memoria, así que funciona antes de conectar nada. Nunca convierte el título de un vídeo en un hecho sobre ti. Un clic conecta la cuenta para buscar y para subir.",
     "fr": "Pour ceux qui publient, pas seulement pour ceux qui regardent. Il garde vos propres publications — titres, tags, dates — et vous les rend la fois suivante. L'écran, c'est votre chaîne : ce que vous avez sorti, qui peut voir quoi, et depuis combien de temps. Tout vient de la mémoire, donc cela fonctionne avant même de connecter quoi que ce soit. Un titre de vidéo ne devient jamais un fait vous concernant. Un clic connecte le compte.",
     "de": "Für Menschen, die veröffentlichen, nicht nur zuschauen. Es merkt sich Ihre eigenen Uploads — Titel, Tags, wann was erschien — und gibt sie beim nächsten Mal zurück. Der Bildschirm ist Ihr Kanal: was Sie herausgebracht haben, wer es jeweils sehen darf und wie lange der letzte her ist. Alles kommt aus dem Gedächtnis, es funktioniert also schon vor jeder Verbindung. Ein Videotitel wird nie zu einer Tatsache über Sie. Ein Klick verbindet das Konto."
-   }
+   },
+   "howto": [
+    "What is this video about?",
+    "Upload that clip to my channel as unlisted"
+   ]
   },
   {
    "id": "wangjacsi/cosmos-lingua",
