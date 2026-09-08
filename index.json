@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "updated": "2026-09-03",
+ "updated": "2026-09-08",
  "agents": [
   {
    "id": "honeyground-org/flights",
@@ -100,11 +100,11 @@
    "id": "honeyground-org/youtube",
    "repo": "https://github.com/honeyground-org/cosmos-agents",
    "path": "youtube",
-   "ref": "youtube-v0.3.1",
+   "ref": "youtube-v0.4.0",
    "type": "feature",
    "contract": "plugin/v1",
    "title": "YouTube",
-   "description": "For people who publish, not just watch. It keeps your own uploads -- the titles, the tags, when each one went out -- and hands them back the next time you publish, so a channel stops being a pile of things you half remember. Its screen is your channel: what you put out, who can see each one, and how long it has been since the last one, and it reads entirely from memory so it works before you connect anything. It never turns a video title into a fact about you: a title is what someone wrote to get a click that afternoon. What it does keep, on the watching side, is the channel you keep coming back to -- and only after you actually come back, because once is an event and twice is a taste. One click connects your account for both searching and uploading; nothing has to be pasted anywhere.",
+   "description": "A creator's channel and reference workspace. Keeps your recorded uploads, titles, tags and privacy for the next publishing decision. On Cosmos 0.3.0 or later, search, select, inspect and summarize references beside your publication history. Latest results are private user-scoped working state, not inferred interests. Explicit lookups and opening requests use Cosmos memory; opening never means a video was watched. Summaries use only titles and descriptions, not video content or captions. Connect Google in agent settings; an API key is optional for reading. Uploads require an explicit request and publishing permission. The view is not a live synchronization of your YouTube channel.",
    "author": "honeyground-org",
    "license": "MIT",
    "homepage": "https://github.com/honeyground-org/cosmos-agents/tree/main/youtube",
@@ -129,11 +129,11 @@
     "de": "YouTube — für alle, die veröffentlichen"
    },
    "description_i18n": {
-    "ko": "보는 사람이 아니라 **만드는 사람**을 위한 것이다. 내가 올린 것 — 제목·태그·언제 나갔는지 — 을 기억해 두었다가 다음에 올릴 때 꺼내 준다. 화면은 내 채널이다: 무엇을 냈고, 각각을 누가 볼 수 있고, 마지막으로 낸 지 며칠 됐는지. 전부 기억에서 오므로 ★아직 연결을 안 했어도 화면이 선다★. 영상 제목을 나에 대한 사실로 굳히지 않는다 — 제목은 그날 클릭을 얻으려고 쓴 문장이다. 보는 쪽에서 남기는 것은 **다시 찾게 되는 채널**이고, 그것도 정말 다시 찾은 뒤에야 남긴다(한 번은 사건, 두 번은 성향). 계정 연결은 클릭 한 번이고 그 한 번이 찾기와 올리기를 다 덮는다.",
-    "ja": "見る人ではなく**つくる人**のためのもの。自分がアップしたもの — タイトル・タグ・いつ出したか — を覚えておき、次に公開するとき差し出す。画面は自分のチャンネルだ:何を出したか、それぞれ誰が見られるか、最後の公開から何日経ったか。すべて記憶から来るので★まだ接続していなくても画面は立つ★。動画のタイトルを自分についての事実にしない — タイトルはその日クリックを得るために書かれた文だ。見る側で残すのは**また戻ってくるチャンネル**で、それも実際に戻ってきた後だけ。接続はワンクリック。",
-    "es": "Para quien publica, no solo para quien mira. Guarda tus propias subidas — títulos, etiquetas, cuándo salió cada una — y te las devuelve la próxima vez que publiques. La pantalla es tu canal: qué has sacado, quién puede ver cada cosa y cuánto hace desde la última. Lee todo de la memoria, así que funciona antes de conectar nada. Nunca convierte el título de un vídeo en un hecho sobre ti. Un clic conecta la cuenta para buscar y para subir.",
-    "fr": "Pour ceux qui publient, pas seulement pour ceux qui regardent. Il garde vos propres publications — titres, tags, dates — et vous les rend la fois suivante. L'écran, c'est votre chaîne : ce que vous avez sorti, qui peut voir quoi, et depuis combien de temps. Tout vient de la mémoire, donc cela fonctionne avant même de connecter quoi que ce soit. Un titre de vidéo ne devient jamais un fait vous concernant. Un clic connecte le compte.",
-    "de": "Für Menschen, die veröffentlichen, nicht nur zuschauen. Es merkt sich Ihre eigenen Uploads — Titel, Tags, wann was erschien — und gibt sie beim nächsten Mal zurück. Der Bildschirm ist Ihr Kanal: was Sie herausgebracht haben, wer es jeweils sehen darf und wie lange der letzte her ist. Alles kommt aus dem Gedächtnis, es funktioniert also schon vor jeder Verbindung. Ein Videotitel wird nie zu einer Tatsache über Sie. Ein Klick verbindet das Konto."
+    "ko": "제작자를 위한 채널·참고 영상 작업 공간. 기록된 내 업로드의 제목·태그·공개 범위를 다음 제작에 활용합니다. Cosmos 0.3.0 이상에서는 업로드 이력 옆에서 검색·선택·상세 조회·설명 기반 요약을 조작합니다. 최근 결과는 사용자별 작업 상태이며 관심사로 추론하지 않습니다. 명시적인 조회와 열기 요청은 브레인에 기억하지만 열기를 시청으로 간주하지 않습니다. 영상·자막을 읽지 않고 제목·설명만 요약합니다. Google 연결은 설치 에이전트 설정에서, 업로드는 명시적인 요청과 게시 권한으로 진행합니다. 채널 실시간 동기화는 아닙니다.",
+    "ja": "制作者向けのチャンネル・参考動画ワークスペース。記録済みアップロードのタイトル、タグ、公開範囲を次の制作に活用します。Cosmos 0.3.0以降では履歴の横で検索、選択、詳細表示、説明の要約ができます。最新結果はユーザー別の作業状態であり、興味として推測しません。明示的な照会と開く要求は記憶しますが、開くことを視聴とは扱いません。要約はタイトルと説明のみで、動画や字幕は読みません。Google接続は設定から。公開には明示的な要求と権限が必要です。リアルタイム同期ではありません。",
+    "es": "Un espacio de canal y referencias para creadores. Conserva títulos, etiquetas y privacidad de tus subidas registradas para la siguiente publicación. En Cosmos 0.3.0 o posterior puedes buscar, seleccionar, consultar detalles y resumir descripciones junto al historial. Los resultados recientes son estado de trabajo por usuario, no intereses inferidos. Recuerda consultas explícitas y solicitudes de apertura; abrir no equivale a ver. Los resúmenes usan solo título y descripción, sin vídeo ni subtítulos. Conecta Google en ajustes. Publicar exige una petición explícita y permiso. No sincroniza el canal en vivo.",
+    "fr": "Un espace de chaîne et de références pour les créateurs. Conserve les titres, tags et visibilité des envois enregistrés pour la prochaine publication. Avec Cosmos 0.3.0 ou ultérieur, recherchez, sélectionnez, consultez et résumez les descriptions à côté de l’historique. Les derniers résultats sont un état de travail par utilisateur, pas des intérêts déduits. Les consultations explicites et demandes d’ouverture sont mémorisées; ouvrir ne signifie pas regarder. Les résumés utilisent uniquement titre et description, sans vidéo ni sous-titres. Connectez Google dans les réglages. Publier exige une demande explicite et une autorisation. Pas de synchronisation en direct.",
+    "de": "Ein Kanal- und Referenzarbeitsbereich für Kreative. Bewahrt Titel, Tags und Sichtbarkeit erfasster Uploads für die nächste Veröffentlichung. Ab Cosmos 0.3.0 können Sie neben dem Verlauf suchen, auswählen, Details laden und Beschreibungen zusammenfassen. Letzte Ergebnisse sind nutzerbezogener Arbeitszustand, keine abgeleiteten Interessen. Gezielte Aufrufe und Öffnungswünsche werden erinnert; Öffnen gilt nicht als Anschauen. Zusammenfassungen nutzen nur Titel und Beschreibung, weder Video noch Untertitel. Google wird in den Einstellungen verbunden. Veröffentlichen erfordert einen ausdrücklichen Auftrag und Berechtigung. Keine Live-Kanalsynchronisierung."
    },
    "howto": [
     "What is this video about?",
@@ -143,11 +143,11 @@
   {
    "id": "wangjacsi/cosmos-lingua",
    "repo": "https://github.com/wangjacsi/cosmos-lingua",
-   "ref": "v0.5.2",
+   "ref": "v0.6.0",
    "type": "feature",
    "contract": "plugin/v1",
    "title": "Lingua Live — live language practice",
-   "description": "A live language tutor that corrects you in the background without interrupting the conversation. It gauges your level while you speak, shows wrong↔right as cards on screen, and brings things back just before you forget. It keeps three things in Cosmos' memory — which language you are learning, roughly how far along, and what keeps tripping you up — so a new session does not start from scratch, and when things are quiet it can offer to pick practice back up. Say \"stop correcting me\" and it keeps to itself until you ask again. English, Spanish, Japanese, Chinese, German, French, Korean and Arabic.",
+   "description": "A language-learning companion for natural conversation through enjoyable practice and varied examples. Each user keeps separate goals, interests, levels and review history for each language. Choose your explanation language independently. Lingua keeps lasting goals, progress and recurring difficulties in Cosmos memory, so future practice and timely review suggestions build on what you have learned. Corrections appear without interrupting conversation. Set your preferences from the installed agent list. Supports English, Spanish, Japanese, Chinese, German, French, Korean, Arabic, Italian, Portuguese and Russian.",
    "author": "wangjacsi",
    "license": "MIT",
    "homepage": "https://github.com/wangjacsi/cosmos-lingua",
@@ -169,11 +169,11 @@
     "de": "Lingua Live — Sprachpraxis in Echtzeit"
    },
    "description_i18n": {
-    "ko": "대화를 끊지 않고 백그라운드에서 교정하는 실시간 언어 튜터. 말하는 동안 수준을 재고, 틀린 말↔고친 말을 화면 카드로 보여주고, 잊을 때쯤 다시 꺼내 준다. 영어·스페인어·일본어·중국어·독일어·프랑스어·한국어·아랍어.",
-    "ja": "会話を止めずに背後で訂正するリアルタイム言語チューター。話している間にレベルを測り、誤り↔正しい形を画面カードで見せ、忘れる頃にもう一度出します。英語・スペイン語・日本語・中国語・ドイツ語・フランス語・韓国語・アラビア語。",
-    "es": "Un tutor de idiomas en vivo que te corrige en segundo plano sin interrumpir la conversación. Mide tu nivel mientras hablas, muestra el error↔la forma correcta como tarjetas en pantalla y te lo devuelve justo antes de que lo olvides. Inglés, español, japonés, chino, alemán, francés, coreano y árabe.",
-    "fr": "Un tuteur de langue en direct qui vous corrige en arrière-plan sans interrompre la conversation. Il évalue votre niveau pendant que vous parlez, affiche l'erreur↔la forme correcte sous forme de cartes, et vous les repropose juste avant que vous ne les oubliiez. Anglais, espagnol, japonais, chinois, allemand, français, coréen et arabe.",
-    "de": "Ein Live-Sprachtutor, der dich im Hintergrund korrigiert, ohne das Gespräch zu unterbrechen. Er misst dein Niveau, während du sprichst, zeigt Fehler↔richtige Form als Karten auf dem Bildschirm und holt sie zurück, kurz bevor du sie vergisst. Englisch, Spanisch, Japanisch, Chinesisch, Deutsch, Französisch, Koreanisch und Arabisch."
+    "ko": "재미있는 연습과 다양한 예시로 자연스러운 대화를 익히는 언어 학습 동반자. 사용자마다, 언어마다 목적·관심사·수준·복습 기록을 따로 관리하고 설명 언어도 선택합니다. 오래 유효한 목표·진도·반복 약점은 Cosmos 기억에 남겨 다음 연습과 적절한 복습 제안에 활용합니다. 교정은 대화를 끊지 않고 화면에 표시하며, 설치 에이전트 목록에서 학습 설정을 바꿀 수 있습니다. 영어·스페인어·일본어 등 11개 언어를 지원합니다.",
+    "ja": "楽しい練習と多様な例で自然な会話を身につける学習パートナー。ユーザーごと・言語ごとに目標、関心、レベル、復習記録を分け、説明の言語も選べます。長く役立つ目標、進度、繰り返す苦手分野をCosmosの記憶に残し、次の練習と適切な復習提案に活用します。会話を遮らず画面に訂正を表示。インストール済みエージェント一覧から設定できます。英語、スペイン語、日本語など11言語に対応。",
+    "es": "Un compañero para aprender a conversar con naturalidad mediante práctica amena y ejemplos variados. Cada usuario conserva objetivos, intereses, nivel e historial de repaso por idioma y elige el idioma de las explicaciones. Los objetivos, avances y dificultades recurrentes quedan en la memoria de Cosmos para orientar la siguiente práctica y sugerir repasos oportunos. Las correcciones aparecen sin interrumpir la conversación. Ajusta tus preferencias desde la lista de agentes instalados. Admite 11 idiomas.",
+    "fr": "Un compagnon pour converser naturellement grâce à une pratique agréable et à des exemples variés. Chaque utilisateur conserve ses objectifs, centres d’intérêt, niveaux et révisions par langue et choisit la langue des explications. Les objectifs durables, progrès et difficultés récurrentes sont mémorisés par Cosmos pour guider les prochaines séances et proposer des révisions au bon moment. Les corrections s’affichent sans interrompre la conversation. Réglages accessibles depuis la liste des agents installés. Onze langues disponibles.",
+    "de": "Ein Lernbegleiter für natürliche Gespräche durch unterhaltsame Übungen und vielfältige Beispiele. Ziele, Interessen, Niveau und Wiederholungsverlauf bleiben je Nutzer und Sprache getrennt; die Erklärungssprache ist frei wählbar. Cosmos merkt sich dauerhafte Ziele, Fortschritte und wiederkehrende Schwierigkeiten für die nächste Übung und passende Wiederholungsvorschläge. Korrekturen erscheinen, ohne das Gespräch zu unterbrechen. Einstellungen sind über die Liste installierter Agenten erreichbar. Elf Sprachen werden unterstützt."
    }
   }
  ]
